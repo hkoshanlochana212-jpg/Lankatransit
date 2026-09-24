@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141824"/>
+      <stop offset="100%" stop-color="#0D0D0E"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFB340"/>
+      <stop offset="100%" stop-color="#FF9F0A"/>
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38A1FF"/>
+      <stop offset="100%" stop-color="#0A84FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background base rounded rectangle with safe zone -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)"/>
+  <rect x="8" y="8" width="496" height="496" rx="104" fill="none" stroke="url(#goldGrad)" stroke-width="6" opacity="0.35"/>
+
+  <!-- Iconic Nine-Arch Bridge Subtle Curved Silhouette in Gold -->
+  <path d="M 64 370 Q 256 340 448 370 L 448 400 L 64 400 Z" fill="#FF9F0A" opacity="0.15"/>
+  <path d="M 96 400 A 32 32 0 0 1 160 400 M 192 400 A 32 32 0 0 1 256 400 M 288 400 A 32 32 0 0 1 352 400 M 384 400 A 32 32 0 0 1 448 400" stroke="#FF9F0A" stroke-width="8" stroke-linecap="round" fill="none" opacity="0.4"/>
+
+  <!-- High-Speed Modern Transit Front Emblem (Train & Bus hybrid) -->
+  <g transform="translate(136, 96)">
+    <!-- Main Transit Carriage -->
+    <rect x="16" y="24" width="208" height="236" rx="44" fill="url(#blueGrad)"/>
+    <rect x="28" y="36" width="184" height="212" rx="34" fill="#0D111A"/>
+    
+    <!-- Windshield -->
+    <path d="M 44 60 C 44 48 54 44 72 44 L 168 44 C 186 44 196 48 196 60 L 196 112 C 196 122 186 126 168 126 L 72 126 C 54 126 44 122 44 112 Z" fill="#1C2433" stroke="#0A84FF" stroke-width="3"/>
+    
+    <!-- Windshield Glass Reflections -->
+    <path d="M 64 54 L 100 54 L 76 116 L 52 116 Z" fill="#FFFFFF" opacity="0.15"/>
+    <path d="M 120 54 L 140 54 L 126 116 L 106 116 Z" fill="#FFFFFF" opacity="0.1"/>
+
+    <!-- Destination Sign / LED Ticker in Sinhala/Latin -->
+    <rect x="76" y="28" width="88" height="12" rx="4" fill="#FF9F0A"/>
+
+    <!-- Dual Twin High-Intensity Headlights -->
+    <circle cx="62" cy="180" r="15" fill="#FF9F0A"/>
+    <circle cx="62" cy="180" r="9" fill="#FFF9E6"/>
+    
+    <circle cx="178" cy="180" r="15" fill="#FF9F0A"/>
+    <circle cx="178" cy="180" r="9" fill="#FFF9E6"/>
+
+    <!-- Center Emblem Star / Lion Crown Accent -->
+    <circle cx="120" cy="176" r="14" fill="#0A84FF"/>
+    <polygon points="120,166 124,174 133,176 126,182 128,190 120,185 112,190 114,182 107,176 116,174" fill="#FF9F0A"/>
+
+    <!-- Lower Bumper & Cowcatcher Grill -->
+    <rect x="40" y="218" width="160" height="10" rx="4" fill="#FF9F0A" opacity="0.9"/>
+    <line x1="70" y1="228" x2="70" y2="246" stroke="#4A5568" stroke-width="6"/>
+    <line x1="120" y1="228" x2="120" y2="246" stroke="#4A5568" stroke-width="6"/>
+    <line x1="170" y1="228" x2="170" y2="246" stroke="#4A5568" stroke-width="6"/>
+  </g>
+
+  <!-- Sri Lanka Golden Text Accent at Bottom -->
+  <text x="256" y="440" text-anchor="middle" fill="#FF9F0A" font-family="'Poppins', sans-serif" font-weight="bold" font-size="34" letter-spacing="4">LANKA TRANSIT</text>
+  <text x="256" y="472" text-anchor="middle" fill="#A0AEC0" font-family="'Noto Sans Sinhala', sans-serif" font-weight="500" font-size="22">ලංකා ට්රාන්සිට්</text>
+</svg>

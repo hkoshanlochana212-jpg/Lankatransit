@@ -1,0 +1,8 @@
+{
+  "name": "Lanka Transit",
+  "description": "Premium Sri Lankan Public Transport Schedule Web Application with Makumbura MMC, Pettah Private & CTB Bus, and Colombo Fort Railway schedules.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

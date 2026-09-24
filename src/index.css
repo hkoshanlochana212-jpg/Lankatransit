@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-main: 'Poppins', 'Noto Sans Sinhala', 'Noto Sans Tamil', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-main);
+    background-color: #0b0e14;
+    color: #f1f5f9;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+.font-sinhala {
+  font-family: 'Noto Sans Sinhala', 'Poppins', sans-serif;
+}
+
+.font-tamil {
+  font-family: 'Noto Sans Tamil', 'Poppins', sans-serif;
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0b0e14;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
+
+/* Glass & Glow Accents */
+.gold-glow {
+  box-shadow: 0 0 25px -5px rgba(255, 159, 10, 0.15);
+}
+
+.blue-glow {
+  box-shadow: 0 0 25px -5px rgba(10, 132, 255, 0.15);
+}
+
